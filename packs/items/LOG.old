@@ -1,0 +1,8 @@
+2024/11/30-22:43:33.648 4b288 Recovering log #707
+2024/11/30-22:43:33.721 4b288 Delete type=0 #707
+2024/11/30-22:43:33.721 4b288 Delete type=3 #705
+2024/11/30-22:44:25.863 4b8dc Level-0 table #712: started
+2024/11/30-22:44:25.863 4b8dc Level-0 table #712: 0 bytes OK
+2024/11/30-22:44:25.897 4b8dc Delete type=0 #710
+2024/11/30-22:44:25.992 4b8dc Manual compaction at level-0 from '!folders!Bb2SrxhzhYYMJLMu' @ 72057594037927935 : 1 .. '!items.effects!U7pVUdNaMhy7IH99.wGGP1VIlOmX5NOsJ' @ 0 : 0; will stop at (end)
+2024/11/30-22:44:25.992 4b8dc Manual compaction at level-1 from '!folders!Bb2SrxhzhYYMJLMu' @ 72057594037927935 : 1 .. '!items.effects!U7pVUdNaMhy7IH99.wGGP1VIlOmX5NOsJ' @ 0 : 0; will stop at (end)

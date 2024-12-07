@@ -1,0 +1,256 @@
+{
+  "id": "Gioppo",
+  "title": "Gioppo Compendiums",
+  "description": "Personal compendium-sharing module.",
+  "authors": [
+    {
+      "name": "Gioppo Luca",
+      "discord": "gioppoluca",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "9",
+    "verified": "12"
+  },
+  "esmodules": [
+    "scripts/module.js"
+  ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "version": "#{VERSION}#",
+  "library": "false",
+  "packs": [
+    {
+      "name": "gioppo-races",
+      "label": "Racial Features (Gioppo)",
+      "path": "packs/races",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {
+        "dnd5e": {
+          "types": [
+            "race",
+            "feat"
+          ]
+        }
+      }
+    },
+    {
+      "name": "gioppo-items",
+      "label": "Items (Gioppo)",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "gioppo-subclasses",
+      "label": "Subclasses (Gioppo)",
+      "path": "packs/subclasses",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "gioppo-classFeatures",
+      "label": "Class Features (Gioppo)",
+      "path": "packs/class_features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "gioppo-monsterfeatures",
+      "label": "Monster Features (Gioppo)",
+      "path": "packs/monster_features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "gioppo-actors",
+      "label": "Actors (Gioppo)",
+      "path": "packs/actors",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "gioppo-feats",
+      "label": "Feats (Gioppo)",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "gioppo-backgrounds",
+      "label": "Backgrounds (Gioppo)",
+      "path": "packs/background",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "gioppo-spells",
+      "label": "Spells (Gioppo)",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "gioppo-monsters",
+      "label": "Monsters (Gioppo)",
+      "path": "packs/monsters",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "gioppo-macro",
+      "label": "Macro (Gioppo)",
+      "path": "packs/macro",
+      "type": "Macro",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "gioppo-classes",
+      "label": "Classes (Gioppo)",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "scenes-gioppo",
+      "label": "Scenes (Gioppo)",
+      "path": "packs/scenes-gioppo",
+      "type": "Scene",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "items-gioppo-wod",
+      "label": "Items (Gioppo WoD)",
+      "path": "packs/items-gioppo-wod",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "vtm5e"
+    },
+    {
+      "name": "actors-gioppo-wod",
+      "label": "Actors (Gioppo WoD)",
+      "path": "packs/actors-gioppo-wod",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "vtm5e"
+    },
+    {
+      "name": "journals-gioppo-wod",
+      "label": "Journals (Gioppo WoD)",
+      "path": "packs/journals-gioppo-wod",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "vtm5e"
+    },
+    {
+      "name": "scenes-gioppo-wod",
+      "label": "Scenes (Gioppo WoD)",
+      "path": "packs/scenes-gioppo-wod",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "vtm5e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Gioppo",
+      "sorting": "m",
+      "color": "#1c8ad9",
+      "packs": [
+        "gioppo-items",
+        "gioppo-subclasses",
+        "gioppo-classFeatures",
+        "gioppo-monsterfeatures",
+        "gioppo-actors",
+        "gioppo-feats",
+        "gioppo-backgrounds",
+        "gioppo-spells",
+        "gioppo-monsters",
+        "gioppo-macro",
+        "gioppo-races",
+        "gioppo-classes",
+        "scenes-gioppo"
+      ],
+      "folders": []
+    },
+    {
+      "name": "Gioppo",
+      "sorting": "m",
+      "color": "#1c8ad9",
+      "packs": [
+        "scenes-gioppo-wod",
+        "journals-gioppo-wod",
+        "actors-gioppo-wod",
+        "items-gioppo-wod"
+      ],
+      "folders": []
+    }
+  ]
+}
